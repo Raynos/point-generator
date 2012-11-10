@@ -1,0 +1,35 @@
+{
+  "name": "point-generator",
+  "version": "0.1.0",
+  "description": "Generate points if screen is empty",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/point-generator.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/point-generator",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/point-generator/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "xtend": "~1.0.3"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "screen": "~0.2.9"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/point-generator/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "tap --stderr --tap ./test"
+  }
+}
